@@ -1,10 +1,12 @@
 package Guards;
 
+import java.time.LocalDate;
+
 public class Comun extends Guardia {
     private boolean tieneGasPimienta;
 
-    public Comun(int legajo, Turno turno, int numPabellon, boolean enServicio, boolean tieneGasPimienta) {
-        super(legajo, turno, numPabellon, enServicio);
+    public Comun(String nombre, String apellido, String dni, int edad, LocalDate fechaNacimiento, int legajo, Turno turno, int numPabellon, boolean enServicio, Rango rango, boolean tieneGasPimienta) {
+        super(nombre, apellido, dni, edad, fechaNacimiento, legajo, turno, numPabellon, enServicio, rango);
         this.tieneGasPimienta = tieneGasPimienta;
     }
 
