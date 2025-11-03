@@ -26,7 +26,7 @@ COMENTAR EL CODIGO, EN ESPECIAL METODOS.
 
 //-Exceptions: Por lo menos 2 hechas propias, seguramente para valores ingresados incorrectos.
 
-//-Genericidad: Tal vez para el ingreso de clases hijas heredadoras de "Persona" en algun Collection, <T extends Persona>.
+//-Genericidad: Tal vez para el ingreso de clases hijas heredadoras de "Persona.Persona" en algun Collection, <T extends Persona.Persona>.
 
 //-Archivos.
 
