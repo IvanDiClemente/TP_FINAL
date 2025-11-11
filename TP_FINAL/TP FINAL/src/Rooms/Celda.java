@@ -1,5 +1,10 @@
 package Rooms;
+import Guards.Guardia;
+import Guards.Rango;
+import Guards.Turno;
 import Prisoners.Prisionero;
+
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.time.LocalDateTime;
 
@@ -10,7 +15,7 @@ public abstract class Celda {
     private boolean lleno;
     private int numeroDeCelda;
     private int capacidad;
-    private ArrayList<Prisionero> prisioneros;
+    private Guardia guardiaAsignado;
     private LocalDateTime ultimaInspeccion;
 
 
@@ -56,6 +61,10 @@ public abstract class Celda {
 
     public void setUltimaInspeccion(LocalDateTime ultimaInspeccion) {
         this.ultimaInspeccion = ultimaInspeccion;
+    }
+
+    public void asignarGuardia(String nombre, String apellido, String dni, int edad, LocalDate fechaNacimiento, int legajo, Turno turno, int numPabellon, boolean enServicio, Rango rango){
+        guardiaAsignado=new Guardia(nombre, apellido, dni, edad, fechaNacimiento, legajo, turno, numPabellon, enServicio, rango);
     }
 
 
