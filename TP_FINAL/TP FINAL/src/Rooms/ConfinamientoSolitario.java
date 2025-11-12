@@ -2,7 +2,7 @@ package Rooms;
 
 import Prisoners.Prisionero;
 
-public class ConfinamientoSolitario extends Celda {
+public class ConfinamientoSolitario extends Celda{
 
     private int diasDeAislamiento;
     private Prisionero prisonero;

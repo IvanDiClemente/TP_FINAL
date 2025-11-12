@@ -1,4 +1,9 @@
 package Prisoners;
 
-public class Prisionero {
+import Rooms.Cuarentena;
+
+public class Prisionero implements Cuarentena{
+
+
+
 }

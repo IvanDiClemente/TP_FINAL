@@ -4,13 +4,15 @@ import Guards.Rango;
 import Guards.Turno;
 import Prisoners.Prisionero;
 
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.time.LocalDateTime;
 
 
-public abstract class Celda {
+public abstract class Celda implements Cuarentena{
 
+    private boolean flag;
     private boolean ocupado;
     private boolean lleno;
     private int numeroDeCelda;
@@ -19,17 +21,6 @@ public abstract class Celda {
     private LocalDateTime ultimaInspeccion;
 
 
-    /*
-    public void agregarPreso(//Parametros de preso){
-
-    }
-
-    public void eliminarPreso(int index){
-    }
-
-    public void eliminarPresoDNI(int DNI){
-    }
-    */
 
     public boolean isOcupado() {
         return ocupado;
@@ -69,8 +60,18 @@ public abstract class Celda {
 
 
     public Celda(int numeroDeCelda, int capacidad) {
+        this.flag=false;
         this.numeroDeCelda = numeroDeCelda;
         this.capacidad = capacidad;
+    }
+
+    @Override
+    public void cuarentena() {
+        if(this.flag) {
+            this.flag=false;
+        }else  {
+            this.flag=true;
+        }
     }
 
     /*Cuando prisionero este realizado, hace falta hacer un constructor para meter directamente prisioneros a la celda */
