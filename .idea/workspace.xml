@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14ba423e-0864-4a73-b126-1cf49754e74b" name="Changes" comment="">
+    <list default="true" id="14ba423e-0864-4a73-b126-1cf49754e74b" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;TP_FINAL/TP FINAL/src/Cuarentena.java&#10;#&#9;TP_FINAL/TP FINAL/src/Interfaces/Cuarentena.java&#10;#&#9;TP_FINAL/TP FINAL/src/Prisoners/Prisionero.java&#10;#&#9;TP_FINAL/TP FINAL/src/Rooms/Cuarentena.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Cuarentena.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Interfaces/Cuarentena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Guards/Armado.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Guards/Armado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Sistema.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +35,12 @@
     &quot;assignee&quot;: &quot;IvanDiClemente&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/IvanDiClemente/TP_FINAL",
-    "accountId": "68d74a8a-cc50-45a4-8022-874223cde3f6"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IvanDiClemente/TP_FINAL&quot;,
+    &quot;accountId&quot;: &quot;68d74a8a-cc50-45a4-8022-874223cde3f6&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>

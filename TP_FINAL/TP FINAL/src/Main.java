@@ -11,7 +11,7 @@ public class Main {
 
        do{
            System.out.println("============================================");
-           System.out.println("       SISTEMA DE CONTROL DE PRISION        ");
+           System.out.println("       SISTEMA DE CONTROL DE PRISIÓN        ");
            System.out.println("============================================");
 
            System.out.println("-----------------Guardias-------------------");
