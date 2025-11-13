@@ -87,7 +87,7 @@ public class Main {
                    sistema.asignarGasPimienta();
                    break;
                case 11:
-                   sistema.asignarOactualizaTaser();
+                   sistema.asignarOactualizarTaser();
                    break;
 
                case 0:

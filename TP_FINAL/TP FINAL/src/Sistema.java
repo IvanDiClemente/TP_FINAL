@@ -218,7 +218,7 @@ public class Sistema {
         }
     }
 
-    public void asignarOactualizaTaser (){
+    public void asignarOactualizarTaser (){
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese el DNI del guardia: ");
         String dni = sc.nextLine();
