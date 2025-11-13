@@ -22,11 +22,10 @@ public class Main {
            System.out.println("5. Dar descanso a un guardia");
            System.out.println("6. Mostrar guardias en servicio");
            System.out.println("7. Mostrar guardias fuera de servicio");
-           System.out.println("8. Mostrar guardias fuera de servicio");
-           System.out.println("9. Cambiar turno de un guardia");
-           System.out.println("10.Asignar o cambiar arma a un guardia armado");
-           System.out.println("11.Asignar gas pimienta a un guardia comun");
-           System.out.println("12.Asignar/actualizar Taser a un guardia capacitado");
+           System.out.println("8. Cambiar turno de un guardia");
+           System.out.println("9.Asignar o cambiar arma a un guardia armado");
+           System.out.println("10.Asignar gas pimienta a un guardia comun");
+           System.out.println("11.Asignar/actualizar Taser a un guardia capacitado");
 
            System.out.println("-----------------Prisioneros-------------------");
 
@@ -55,16 +54,53 @@ public class Main {
 
            switch (opcion){
                case 1:
+                   sistema.agregarGuardiaComun();
                    break;
                case 2:
+                   sistema.agregarGuardiaArmado();
                    break;
                case 3:
+                   sistema.agregarGuardiaCapacitadoTaser();
                    break;
                case 4:
-                   System.out.println("\n-----GUARDIAS-----");
+                   System.out.println("\n-----LISTA GUARDIAS-----");
                    sistema.mostrarGuardias();
                    break;
+               case 5:
+                   sistema.darDescansoGuardia();
+                   break;
+               case 6:
+                   System.out.println("\n------GUARDIAS EN SERVICIO------");
+                   sistema.mostrarGuardiasEnServicio();
+                   break;
+               case 7:
+                   System.out.println("\n-----GUARDIAS FUERA DE SERVICIO-----");
+                   sistema.mostrarGuardiasFueraDeServicio();
+                   break;
+               case 8:
+                   sistema.cambiarTurnoGuardia();
+                   break;
+               case 9:
+                   sistema.asignarOcambiarArma();
+                   break;
+               case 10:
+                   sistema.asignarGasPimienta();
+                   break;
+               case 11:
+                   sistema.asignarOactualizaTaser();
+                   break;
+
+               case 0:
+                   System.out.println("Saliendo del sistema....");
+                   break;
+               default:
+                   System.out.println("Opcion no valida. Intente nuevamente");
+                   break;
            }
+
+           System.out.println("\nPresione ENTER para continuar");
+           sc.nextLine();
+
        }while(opcion != 0);
 
 

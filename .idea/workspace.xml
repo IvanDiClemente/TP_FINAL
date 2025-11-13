@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14ba423e-0864-4a73-b126-1cf49754e74b" name="Changes" comment="Merge branch 'main' of https://github.com/IvanDiClemente/TP_FINAL&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml">
+    <list default="true" id="14ba423e-0864-4a73-b126-1cf49754e74b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Cuarentena.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Interfaces/Cuarentena.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Guards/Armado.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Guards/Armado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Persona/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Persona/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP_FINAL/TP FINAL/src/Sistema.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Exception" />
       </list>
     </option>
   </component>
@@ -37,12 +39,12 @@
     &quot;assignee&quot;: &quot;IvanDiClemente&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/IvanDiClemente/TP_FINAL.git&quot;,
-    &quot;accountId&quot;: &quot;7450fa01-1d04-49b4-b674-a706acb71ddf&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/IvanDiClemente/TP_FINAL",
+    "accountId": "68d74a8a-cc50-45a4-8022-874223cde3f6"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -74,7 +76,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
       </set>
     </attachedChunks>
   </component>
@@ -94,11 +96,20 @@
       <option name="project" value="LOCAL" />
       <updated>1762637291527</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="empece a crear los metodos de sistema, el menu flata agregar las opciones de prisioneros y que cada una cargue lo suyo, arme la clase generica">
+      <option name="closed" value="true" />
+      <created>1762920640225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762920640225</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Avances en las celdas e inferface cuarentena" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avances en las celdas e inferface cuarentena" />
+    <MESSAGE value="empece a crear los metodos de sistema, el menu flata agregar las opciones de prisioneros y que cada una cargue lo suyo, arme la clase generica" />
+    <option name="LAST_COMMIT_MESSAGE" value="empece a crear los metodos de sistema, el menu flata agregar las opciones de prisioneros y que cada una cargue lo suyo, arme la clase generica" />
   </component>
 </project>

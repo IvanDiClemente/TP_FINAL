@@ -11,18 +11,27 @@ public class Manager <T>{
         this.lista = new HashMap<>();
     }
 
-    public void agregar (String clave, T elemento)throws AccionInvalidaEx {
-        if (this.lista.containsKey(clave)){
-            throw new AccionInvalidaEx("Ya existe ese elemento");
-        }
-        this.lista.put(clave,elemento);
+    public HashMap<String, T> getLista() {
+        return lista;
     }
 
-    public void eliminar (String clave)throws AccionInvalidaEx {
+    public void agregar (String clave, T elemento){
         if(this.lista.containsKey(clave)){
-            throw new AccionInvalidaEx("No existe ese elemento");
+            System.out.println("Ya existe un elemento con la clave: " + clave);
+        } else {
+            this.lista.put(clave,elemento);
+            System.out.println("Elemento agregado correctamente");
         }
-        this.lista.remove(clave);
+    }
+
+    public void eliminar (String clave){
+        if(!this.lista.containsKey(clave)){
+            System.out.println("No existe un elemento con la clave: " + clave);
+        } else{
+            this.lista.remove(clave);
+            System.out.println("Elemento eliminado correctamente");
+        }
+
     }
 
     public boolean existe (String clave) {
@@ -34,8 +43,12 @@ public class Manager <T>{
     }
 
     public void mostrar(){
-        for (T elem :  this.lista.values()){
-            System.out.println(elem);
+        if (lista.isEmpty()){
+            System.out.println("No hay elementos cargados");
+        } else {
+            for (T elem :  this.lista.values()){
+                System.out.println(elem);
+            }
         }
     }
 

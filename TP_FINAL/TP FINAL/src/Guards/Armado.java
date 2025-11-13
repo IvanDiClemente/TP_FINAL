@@ -17,8 +17,11 @@ public class Armado extends Guardia {
     }
 
     //asignar o reasignar arma
-    public void asignarArma (Arma nuevaArma){
-      if (arma == null){
+    public void asignarArma (Arma nuevaArma)throws PermisoDenegadoEx {
+        if (getRango() == Rango.COMISARIO_MAYOR){
+            throw new PermisoDenegadoEx("El guardia" + getNombre() + getApellido() + "no tiene rango suficiente para cambiar su arma");
+        }
+        if (arma == null){
           this.arma = nuevaArma;
           System.out.println("Se asigno " + nuevaArma + "al guardia "+ getNombre() + getApellido());
       } else{
@@ -32,17 +35,6 @@ public class Armado extends Guardia {
         } else{
             System.out.println("El guardia no tenia un arma asignada");
         }
-    }
-
-    //reemplazar el arma
-    public void cambiarArma (Arma nuevaArma)throws PermisoDenegadoEx {
-        if (getRango() == Rango.COMISARIO_MAYOR){
-            throw new PermisoDenegadoEx("El guardia" + getNombre() + getApellido() + "no tiene ranfo suficiente para cambiar su arma");
-        }
-        if (arma != null){
-            System.out.println("El guardia tenia " + arma + "se cambia por " + nuevaArma);
-        }
-        this.arma = nuevaArma;
     }
 
     @Override
