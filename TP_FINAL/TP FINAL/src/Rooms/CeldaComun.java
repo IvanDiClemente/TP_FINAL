@@ -12,7 +12,20 @@ public class CeldaComun extends Celda{
     private boolean hasTv;
     private ArrayList<Prisionero> presos;
 
-/*
+    /*
+    public void agregarPreso(//Parametros de preso){
+
+    }
+
+    public void eliminarPreso(int index){
+    }
+
+    public void eliminarPresoDNI(int DNI){
+    }
+
+
+
+
     public Prisionero getPrisioneroPorDNI(int DNI){
 
         Prisionero p = null;
